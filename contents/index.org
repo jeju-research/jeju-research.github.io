@@ -1,4 +1,4 @@
-#+TITLE: This is a Test
+#+TITLE: 연구 정리 및 뻘짓
 #+AUTHOR: Holy Frege
 #+DESCRIPTION: Org-HTML export made simple.
 #+KEYWORDS:  org-mode, export, html, theme, style, css, js, bigblow
