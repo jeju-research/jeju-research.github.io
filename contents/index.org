@@ -1,0 +1,53 @@
+#+TITLE: This is a Test
+#+AUTHOR: Holy Frege
+
+* <2021-11-30 Tue>
+#+begin_note
+간단히 git을 만들고, web page를 만들었다. 
+#+end_note
+
+* 출력 테스트
+- 출력 테스트 [[file:img/flipcoin.png][test]]
+- 아래 이미지 test!
+#+CAPTION: test1
+#+NAME: 
+#+attr_html: :width 400px :height 300px
+#+attr_latex: :width 100px
+[[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/ship1.png]]
+
+#+CAPTION: test2
+#+NAME: 
+#+attr_html: :width 400px :height 300px
+#+attr_latex: :width 100px
+[[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/ship2.png]]
+
+jeju-research.github.io/main/contents/image/ship1.png
+#+CAPTION: image
+#+NAME: 
+#+attr_html: :width 400px :height 300px
+#+attr_latex: :width 100px
+[[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/abc.jpg]]
+** MP와 MDP의 차이
+#+CAPTION: MDP
+#+NAME: 
+#+attr_latex: :width 100px
+[[~/jeju-research.github.io/contents/img/flipcoin1.png]]
+- [MDP] agent가 있고 agent가 action을  취한다. MDP로 설계 가능하다.
+
+#+CAPTION: MRP or MP
+#+NAME: 
+[[./img/flipcoin2.png]]
+- [MP] 공의 경우, MP를 따른다. action이 없기 때문이다.
+- 동서 남북으로 갈수 있는 action이 있다고 가정하고, 그 값을 0으로 할 수 있을까? 돌이나 공같은 무생물에
+  action을 부여할 수 있는가? 없다. action의 값은 random하고 policy로 정해지는데, 이것은 확률이라서 모든 action값을 0으로 부여하면 policy가 성립되지 않는다.
+
+#+CAPTION: MP or MRP
+#+NAME: 
+[[./img/ship1.png]]
+- 종이배는 MP와 MRP를 따르게 설계할 수 있다. Reward와 Transition Matrix를 적용해서 종이배의 다음위치를 예측은 가능하다. 하지만, MDP는 안된다. 
+
+#+CAPTION: MDP
+#+NAME: 
+[[./img/ship2.png]]
+-  MDP를 적용할 수 있다.
+
