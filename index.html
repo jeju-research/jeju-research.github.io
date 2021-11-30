@@ -24,16 +24,16 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org754bb1e">1. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></a>
+<li><a href="#orgf52b4cf">1. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></a>
 <ul>
-<li><a href="#orga5ff89c">MP와 MDP의 차이</a></li>
+<li><a href="#org9674bc9">MP와 MDP의 차이</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org754bb1e" class="outline-2">
-<h2 id="org754bb1e"><span class="section-number-2">1</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></h2>
+<div id="outline-container-orgf52b4cf" class="outline-2">
+<h2 id="orgf52b4cf"><span class="section-number-2">1</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></h2>
 <div class="outline-text-2" id="text-1">
 <div class="important">
 <p>
@@ -43,9 +43,9 @@
 </div>
 </div>
 
-<div id="outline-container-orga5ff89c" class="outline-3">
-<h3 id="orga5ff89c">MP와 MDP의 차이</h3>
-<div class="outline-text-3" id="text-orga5ff89c">
+<div id="outline-container-org9674bc9" class="outline-3">
+<h3 id="org9674bc9">MP와 MDP의 차이</h3>
+<div class="outline-text-3" id="text-org9674bc9">
 <div class="note">
 <p>
 일상 생활에서 MP와 MDP 적용여부를 알 수 있을까?
@@ -54,27 +54,28 @@
 </div>
 
 
-<div id="org9468244" class="figure">
+<div id="org8343bfc" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/flipcoin1.png" alt="flipcoin1.png" />
 </p>
 </div>
 <ul class="org-ul">
-<li>MDP로 설계할 수 있다. (공을 찾는 선수가 agent다.) 공이나, 골키퍼등은 상태로 처리한다.</li>
+<li>MDP로 설계할 수 있다. (공을 차는 선수를 agent로&#x2026;) 공이나, 골키퍼등은 상태로 처리할 수 있다.</li>
 </ul>
 
 
-<div id="org1ebec51" class="figure">
+<div id="orgc522bf3" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/flipcoin2.png" alt="flipcoin2.png" />
 </p>
 </div>
 <ul class="org-ul">
-<li>agent인 선수를 고려하지 않고 공만 보자.  공의 경우, MDP를 따르게 할 수 있는가? 할 수 없다. 하지만 MP or MRP를 따를 수 있다. action이 없기 때문이다.</li>
-<li>공에 action을 주어서, 예를 들면, 동서 남북으로 갈수 있는 action이 있다고 가정하고, 그 값을 0으로 해서 처리할 수 있을까? 즉, 돌이나 공같은 무생물에
-action을 부여할 수 있는가? 없다. action의 값은 random하고 policy로 정해지는데, policy는 확률이라서 모든 action값을 0으로 부여하면 policy가 성립되지 않는다.</li>
+<li><del>agent인 선수를 고려하지 않고 공만 보자.  공의 경우, MDP를 따르게 할 수 있는가? 할 수 없다. 하지만 MP or MRP를 따를 수 있다. action이 없기 때문이다.</del></li>
+<li><del>공에 action을 주어서, 예를 들면, 동서 남북으로 갈수 있는 action이 있다고 가정하고, 그 값을 0으로 해서 처리할 수 있을까? 즉, 돌이나 공같은 무생물에</del>
+<del>action을 부여할 수 있는가? 없다. action의 값은 random하고 policy로 정해지는데, policy는 확률이라서 모든 action값을 0으로 부여하면 policy가 성립되지 않는다.</del></li>
+<li>action이 없기 때문에 MRP나 MP로 설계한다.</li>
 </ul>
 
 
-<div id="orga2715ac" class="figure">
+<div id="org4da2847" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/ship1.png" alt="ship1.png" />
 </p>
 </div>
@@ -82,9 +83,11 @@ action을 부여할 수 있는가? 없다. action의 값은 random하고 policy�
 <li>종이배는 MP와 MRP를 따르게 설계할 수 있다. Reward와 Transition Matrix를 적용해서 종이배의 다음위치를 예측은 가능하다. 하지만, MDP는 안된다.  모터를 달면 MDP가 가능하다.</li>
 </ul>
 
-<p>
-[[<img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/ship2.png" alt="ship2.png" />
+
+<div id="orgb2c09c8" class="figure">
+<p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/ship2.png" alt="ship2.png" />
 </p>
+</div>
 <ul class="org-ul">
 <li>Motor가 있기 때문에,MDP를 적용할 수 있다.</li>
 </ul>
