@@ -23,7 +23,7 @@
 
 #+NAME: 
 https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/flipcoin1.png
-- 손흥민은 agent로 해서 MDP로 설계할 수 있다.
+- MDP로 설계할 수 있다. (공을 찾는 선수가 agent다.)
 
 #+NAME: 
 [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/flipcoin2.png]]
