@@ -10,16 +10,21 @@
 #+LATEX_HEADER: \usepackage{kotex}
 #+latex_header: \hypersetup{colorlinks=true}
 #+MACRO: color @@latex:{\color{}@@@@latex:}@@
-* ☛ TODO 차근 차근 준비해야 할것들 [2/4]
+* ☛ TODO 준비해야 할것들 [2/4]
   - [] 논문 읽기 [1/3]
     - [] Markov Decision Policies for Dynamic Video Delivery in Wireless Caching Networks
-    - [] https://arxiv.org/pdf/1908.07873.pdf
-    - [] CST2021_Artificial_Intelligence_for_Wireless_Caching_Schemes_Performance_and_Challenges
+    - []https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/Faderated_Learning.pdf
+    - []CST2021_Artificial_Intelligence_for_Wireless_Caching_Schemes_Performance_and_Challenges
     - [] FedMes_Speeding_Up_Federated_Learning_with_Multiple_Edge_Servers
   - [] to study Arduino or raspberry pi for faderated learning
   - [] to study python, js or c# for platform of Reinforcement Learning
   - [] tensorflow2, keras, pandas for deep learning
   - [] network (무선캐싱,콘텐츠전송, 네트워크 자원 최적화, 에지 컴퓨팅과 같은 에지 네트워크 및 분산 시스템)
+#+CAPTION: 
+#+NAME: 
+#+attr_html: :width 400px :height 300px
+#+attr_latex: :width 100px
+
 
 * <2021-11-30 Tue>
  #+begin_important
