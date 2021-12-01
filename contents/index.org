@@ -88,6 +88,13 @@ https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img
 - grid world: A = {up,down,left,right}
 
  #+begin_important
- Random Variable은 보통 함수로 설명한다. mapping되는 값이 R(실수)이기 때문에,  위에서 A의 집합이나, S의 집합을 tuple이나 문자열로 표시했는데,  엄밀하게 말하면 문제가 있어 보이긴 한다.
+ Random Variable은 보통 함수로 설명한다. mapping되는 값이 R(실수)이다. 그런데,  위에서 A, S를 RV라고 하면서, 실수값을 갖지 않는다. 난 이 표현들이 의미적으로는 아무 문제가 없다고 생각한다.
  #+end_important
 *** 보상함수(r)
+- agent가 학습을 할수 있는 유일한 정보. 환경이 agent에게 주는 정보.
+- t단계에서 action을 취하면 t+1에서 보상을 받는다는 것이 수식에 나와있음을 참조하자.
+- 수식: $\mathcal{r} (s , a) = \mathbb{E} [ \mathcal{R}_{t+1} | \mathcal{S}_{t} = s, \mathcal{A}_{t} = a ]$
+- 보상에서 기댓값을 쓰는 이유? 보상을 agent에게 주는 것은 환경이고, 환경에 따라서 같은 상태에서 같은 행동을 취하더라도 다른 보상을 줄수도 있습니다. 따라서 이 모든것을 고려해서 보상함수를 기댓값으로 표현합니다.
+#+begin_note
+같은 상태에서 같은  action을 취하더라도 보상이 달라진다는 말을 유념해야 할듯하다. 보상은 환경에서 주어진다는 말도 유념해야 할것 같다. 왜냐? 그럴듯하게 들리지만, 구체적인 예를 보기전까지는 피부에 와닿지가 않는다.
+#+end_note
