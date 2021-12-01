@@ -10,17 +10,17 @@
 #+LATEX_HEADER: \usepackage{kotex}
 #+latex_header: \hypersetup{colorlinks=true}
 #+MACRO: color @@latex:{\color{}@@@@latex:}@@
-* ☛ TODO 준비해야 할것들 [2/4]
-  - [] 논문 읽기 [1/3]
-    - []  [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/Markov_Decision_Policies.pdf][Markov Decision Policies for Dynamic Video Delivery in Wireless Caching Networks]] 
-    - []  [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/Faderated_Learning.pdf][Faderated Learning:]]
-    - [] CST2021_Artificial_Intelligence_for_Wireless_Caching_Schemes_Performance_and_Challenges.
-    - [] [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/FedMes_Speeding_Up_Federated_Learning_with_Multiple_Edge_Servers.pdf][FedMes_Speeding_Up_Federated_Learning_with_Multiple_Edge_Servers]] 
-  - [] to study Arduino or raspberry pi for faderated learning.
-  - [] to study python, js or c# for platform of Reinforcement Learning.
-  - [] tensorflow2, keras, pandas for deep learning.
-  - [] network (무선캐싱,콘텐츠전송, 네트워크 자원 최적화, 에지 컴퓨팅과 같은 에지 네트워크 및 분산 시스템)
-  - [] multi bandits code implementations.
+* ☛ TODO 준비해야 할것들 [0/6]
+  - [-] 논문 읽기 [0/4]
+    - [-] [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/Markov_Decision_Policies.pdf][Markov Decision Policies for Dynamic Video Delivery in Wireless Caching Networks]] 
+    - [-] [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/Faderated_Learning.pdf][Faderated Learning:]]
+    - [-] [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main//documents/CST2021_Artificial_Intelligence_for_Wireless_Caching_Schemes_Performance_and_Challenges.pdf ][CST2021_Artificial_Intelligence_for_Wireless_Caching_Schemes_Performance_and_Challenges]]
+    - [-] [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/FedMes_Speeding_Up_Federated.pdf][FedMes_Speeding_Up_Federated_Learning_with_Multiple_Edge_Servers]]
+  - [-] to study Arduino or raspberry pi for faderated learning.
+  - [-] to study python, js or c# for platform of Reinforcement Learning.
+  - [-] tensorflow2, keras, pandas for deep learning.
+  - [-] network (무선캐싱,콘텐츠전송, 네트워크 자원 최적화, 에지 컴퓨팅과 같은 에지 네트워크 및 분산 시스템)
+  - [-] multi bandits code implementations.
 
 * <2021-11-30 Tue>
  #+begin_important
