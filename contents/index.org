@@ -49,4 +49,5 @@ https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img
 *** MDP
 | 상태 | 행동 | 보상함수 | 상태변환확률 | 할인률 |
 
+
   
