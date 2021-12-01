@@ -82,4 +82,12 @@ https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img
 상태는 사용자가 정의한다. 이말은 사용자에게 선택권한이 있다고 돌려 말할 수도 있을것같다. 예를 들면,  축구선수란 agent를 만든다고 하자. 나는 상태를 만들어야 한다.  상태가 될 수 있는것은 여러가지가 있을 수 있다. 운동장을 쪼개서 grid형태로 해서 location(위치)를 나타내는것을 상태로 할수 있고,.공의 위치도 상태가 될수 있다.  동료 선수들의 위치도 상태가 될 수 있다. 심지어  잔디밭의 상태, 온도, 습도, 여러개가 있을 수 있다. 그런데, 나는 선택해야 한다. 가장 중요하다고 생각하는 것들을 가지고...그리고 S라는 유한 집합을 만들어야 한다.
 #+end_note
 *** 행동(A)
-- 
+- agent가 상태 $\mathcal{S}_{t}$ 에서 할 수 있는 가능한 행동의 집합을 $\mathcal{A}$ 라고 한다.
+- *보통 agent가 할수 있는 행동은 모든 상태에서 같다*
+- 수식: $\mathcal{A}_{t} = a$ ; A는 random variable
+- grid world: A = {up,down,left,right}
+
+ #+begin_important
+ Random Variable은 보통 함수로 설명한다. mapping되는 값이 R(실수)이기 때문에,  위에서 A의 집합이나, S의 집합을 tuple이나 문자열로 표시했는데,  엄밀하게 말하면 문제가 있어 보이긴 한다.
+ #+end_important
+*** 보상함수(r)
