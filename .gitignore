@@ -1,0 +1,5 @@
+# Ignore PDF
+*.html
+
+# But exclude certain files
+!example.pdf
