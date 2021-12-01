@@ -41,7 +41,7 @@ https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img
 -  Motor가 있기 때문에,MDP를 적용할 수 있다.
 
 
-* <2021-12-01 Wed>
+* <2021-12-01 Wed> - 책공부
 ** 강화학습 기초1: MDP와 벨만 방정식
 - 강화학습: 결국엔 어떤 방정식을 풀어내는 방법; 그 방정식은 벨만 방정식
 - 순차적 행동 결정 문제(MDP) in grid world.
@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img
 *** MDP
 | 상태 | 행동 | 보상함수 | 상태변환확률 | 할인률 |
 - 문제를 접하다. -> 해결하기 위해선, 문제를 파악(정의)를 해야 한다.
-- 사람은 문제를 정의하는데 아무런 문제가 없다. agent가 문제를 해결하는 mdp문제에서는 사람이 문제를 정의해줘야 한다. 순차적 의사결정을 해야하는 agent에게 있어서 문제의 정의란 MDP다.
+- 사람은 문제를 정의하는데 아무런 문제가 없다. agent는 사람이 문제를 정의해줘야 한다. 순차적 의사결정을 해야하는 agent에게 사용자가 MDP를 만들어 줘야 한다.
 *** 상태(S)
 S: "자신의 상황에 대한 관찰",  ex) 로봇의 경우 센서값
 
