@@ -24,16 +24,17 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org1ec22cb">1. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></a>
+<li><a href="#orge724fe6">1. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></a>
 <ul>
-<li><a href="#org92dabfa">MP와 MDP의 차이</a></li>
+<li><a href="#org424b434">MP와 MDP의 차이</a></li>
 </ul>
 </li>
-<li><a href="#orgbf27973">2. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-12-01 Wed&gt;</span></span></a>
+<li><a href="#org8765b06">2. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-12-01 Wed&gt;</span></span></a>
 <ul>
-<li><a href="#org6d21870">강화학습 기초1: MDP와 벨만 방정식</a>
+<li><a href="#org0ff36c6">강화학습 기초1: MDP와 벨만 방정식</a>
 <ul>
-<li><a href="#orgcdf5f26">MDP</a></li>
+<li><a href="#orgf85778f">MDP</a></li>
+<li><a href="#orgf1e5f30">상태(S)</a></li>
 </ul>
 </li>
 </ul>
@@ -41,8 +42,8 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-org1ec22cb" class="outline-2">
-<h2 id="org1ec22cb"><span class="section-number-2">1</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></h2>
+<div id="outline-container-orge724fe6" class="outline-2">
+<h2 id="orge724fe6"><span class="section-number-2">1</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></h2>
 <div class="outline-text-2" id="text-1">
 <div class="important">
 <p>
@@ -52,9 +53,9 @@
 </div>
 </div>
 
-<div id="outline-container-org92dabfa" class="outline-3">
-<h3 id="org92dabfa">MP와 MDP의 차이</h3>
-<div class="outline-text-3" id="text-org92dabfa">
+<div id="outline-container-org424b434" class="outline-3">
+<h3 id="org424b434">MP와 MDP의 차이</h3>
+<div class="outline-text-3" id="text-org424b434">
 <div class="note">
 <p>
 일상 생활에서 MP와 MDP 적용여부를 알 수 있을까?
@@ -63,7 +64,7 @@
 </div>
 
 
-<div id="org3982ee3" class="figure">
+<div id="orga6f0ef6" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/flipcoin1.png" alt="flipcoin1.png" />
 </p>
 </div>
@@ -72,7 +73,7 @@
 </ul>
 
 
-<div id="org437dbda" class="figure">
+<div id="orgc18c358" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/flipcoin2.png" alt="flipcoin2.png" />
 </p>
 </div>
@@ -84,7 +85,7 @@
 </ul>
 
 
-<div id="org4d35d77" class="figure">
+<div id="orgc9cbd61" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/ship1.png" alt="ship1.png" />
 </p>
 </div>
@@ -93,7 +94,7 @@
 </ul>
 
 
-<div id="orgc050c77" class="figure">
+<div id="org4c3425b" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/ship2.png" alt="ship2.png" />
 </p>
 </div>
@@ -105,22 +106,22 @@
 </div>
 
 
-<div id="outline-container-orgbf27973" class="outline-2">
-<h2 id="orgbf27973"><span class="section-number-2">2</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-12-01 Wed&gt;</span></span></h2>
+<div id="outline-container-org8765b06" class="outline-2">
+<h2 id="org8765b06"><span class="section-number-2">2</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-12-01 Wed&gt;</span></span></h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org6d21870" class="outline-3">
-<h3 id="org6d21870">강화학습 기초1: MDP와 벨만 방정식</h3>
-<div class="outline-text-3" id="text-org6d21870">
+<div id="outline-container-org0ff36c6" class="outline-3">
+<h3 id="org0ff36c6">강화학습 기초1: MDP와 벨만 방정식</h3>
+<div class="outline-text-3" id="text-org0ff36c6">
 <ul class="org-ul">
-<li>강화학습: 어떠한 방정식을 풀어내는 방법; 방정식은 벨만 방정식</li>
+<li>강화학습: 결국엔 어떤 방정식을 풀어내는 방법; 그 방정식은 벨만 방정식</li>
 <li>순차적 행동 결정 문제(MDP) in grid world.</li>
 <li>MDP를 통해 정의된문제: agent가 학습하기 위해서 가치함수 개념도입. (가치함수 &asymp; 벨만방정식)</li>
 </ul>
 </div>
-<div id="outline-container-orgcdf5f26" class="outline-4">
-<h4 id="orgcdf5f26">MDP</h4>
-<div class="outline-text-4" id="text-orgcdf5f26">
+<div id="outline-container-orgf85778f" class="outline-4">
+<h4 id="orgf85778f">MDP</h4>
+<div class="outline-text-4" id="text-orgf85778f">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -145,6 +146,18 @@
 </tr>
 </tbody>
 </table>
+<ul class="org-ul">
+<li>문제를 접하다. -&gt; 해결하기 위해선, 문제를 파악(정의)를 해야 한다.</li>
+<li>사람은 문제를 정의하는데 아무런 문제가 없다. agent가 문제를 해결하는 mdp문제에서는 사람이 문제를 정의해줘야 한다. 순차적 의사결정을 해야하는 agent에게 있어서 문제의 정의란 MDP다.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf1e5f30" class="outline-4">
+<h4 id="orgf1e5f30">상태(S)</h4>
+<div class="outline-text-4" id="text-orgf1e5f30">
+<p>
+S: "자신의 상황에 대한 관찰",  ex) 로봇의 경우 센서값
+</p>
 </div>
 </div>
 </div>
