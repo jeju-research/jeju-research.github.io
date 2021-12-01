@@ -1,5 +1,6 @@
 # Ignore PDF
 *.html
+.DS_Store
 
 # But exclude certain files
 !example.pdf
