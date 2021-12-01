@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>연구 정리 및 뻘짓</title>
+<title>연구 정리</title>
 <meta name="generator" content="Org mode" />
 <meta name="description" content="Org-HTML export made simple."
  />
@@ -19,21 +19,30 @@
 </head>
 <body>
 <div id="content">
-<h1 class="title">연구 정리 및 뻘짓</h1>
+<h1 class="title">연구 정리</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org165b326">1. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></a>
+<li><a href="#org1ec22cb">1. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></a>
 <ul>
-<li><a href="#orgeae59ea">MP와 MDP의 차이</a></li>
+<li><a href="#org92dabfa">MP와 MDP의 차이</a></li>
+</ul>
+</li>
+<li><a href="#orgbf27973">2. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-12-01 Wed&gt;</span></span></a>
+<ul>
+<li><a href="#org6d21870">강화학습 기초1: MDP와 벨만 방정식</a>
+<ul>
+<li><a href="#orgcdf5f26">MDP</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org165b326" class="outline-2">
-<h2 id="org165b326"><span class="section-number-2">1</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></h2>
+<div id="outline-container-org1ec22cb" class="outline-2">
+<h2 id="org1ec22cb"><span class="section-number-2">1</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></h2>
 <div class="outline-text-2" id="text-1">
 <div class="important">
 <p>
@@ -43,9 +52,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgeae59ea" class="outline-3">
-<h3 id="orgeae59ea">MP와 MDP의 차이</h3>
-<div class="outline-text-3" id="text-orgeae59ea">
+<div id="outline-container-org92dabfa" class="outline-3">
+<h3 id="org92dabfa">MP와 MDP의 차이</h3>
+<div class="outline-text-3" id="text-org92dabfa">
 <div class="note">
 <p>
 일상 생활에서 MP와 MDP 적용여부를 알 수 있을까?
@@ -54,7 +63,7 @@
 </div>
 
 
-<div id="org9f27d07" class="figure">
+<div id="org3982ee3" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/flipcoin1.png" alt="flipcoin1.png" />
 </p>
 </div>
@@ -63,7 +72,7 @@
 </ul>
 
 
-<div id="org7b399bb" class="figure">
+<div id="org437dbda" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/flipcoin2.png" alt="flipcoin2.png" />
 </p>
 </div>
@@ -75,7 +84,7 @@
 </ul>
 
 
-<div id="org02bea08" class="figure">
+<div id="org4d35d77" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/ship1.png" alt="ship1.png" />
 </p>
 </div>
@@ -84,13 +93,59 @@
 </ul>
 
 
-<div id="org550549e" class="figure">
+<div id="orgc050c77" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/ship2.png" alt="ship2.png" />
 </p>
 </div>
 <ul class="org-ul">
 <li>Motor가 있기 때문에,MDP를 적용할 수 있다.</li>
 </ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgbf27973" class="outline-2">
+<h2 id="orgbf27973"><span class="section-number-2">2</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-12-01 Wed&gt;</span></span></h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org6d21870" class="outline-3">
+<h3 id="org6d21870">강화학습 기초1: MDP와 벨만 방정식</h3>
+<div class="outline-text-3" id="text-org6d21870">
+<ul class="org-ul">
+<li>강화학습: 어떠한 방정식을 풀어내는 방법; 방정식은 벨만 방정식</li>
+<li>순차적 행동 결정 문제(MDP) in grid world.</li>
+<li>MDP를 통해 정의된문제: agent가 학습하기 위해서 가치함수 개념도입. (가치함수 &asymp; 벨만방정식)</li>
+</ul>
+</div>
+<div id="outline-container-orgcdf5f26" class="outline-4">
+<h4 id="orgcdf5f26">MDP</h4>
+<div class="outline-text-4" id="text-orgcdf5f26">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">상태</td>
+<td class="org-left">행동</td>
+<td class="org-left">보상함수</td>
+<td class="org-left">상태변환확률</td>
+<td class="org-left">할인률</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 </div>
 </div>
