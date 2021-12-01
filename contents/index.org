@@ -14,7 +14,7 @@
   - [-] 논문 읽기 [0/4]
     - [-] [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/Markov_Decision_Policies.pdf][Markov Decision Policies for Dynamic Video Delivery in Wireless Caching Networks]] 
     - [-] [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/Faderated_Learning.pdf][Faderated Learning:]]
-    - [-] [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/CST2021_Artificial_Intelligence_for_Wireless_Caching_Schemes_Performance_and_Challenges.pdf ][CST2021_Artificial_Intelligence_for_Wireless_Caching_Schemes_Performance_and_Challenges]]
+    - [-] [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/CST2021_Artificial_Intelligence_for_Wireless_Caching_Schemes_Performance_and_Challenges.pdf][CST2021_Artificial_Intelligence_for_Wireless_Caching_Schemes_Performance_and_Challenges]]
     - [-] [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/fedmes_speeding_up_federated.pdf][FedMes_Speeding_Up_Federated_Learning_with_Multiple_Edge_Servers]]
   - [-] to study Arduino or raspberry pi for faderated learning.
   - [-] to study python, js or c# for platform of Reinforcement Learning.
