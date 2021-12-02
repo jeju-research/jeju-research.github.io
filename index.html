@@ -46,30 +46,32 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org5f752fd">1. ☛ TODO 준비해야 할것들 <code>[0/6]</code></a></li>
-<li><a href="#orgd4efd5a">2. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></a>
+<li><a href="#org8e3184a">1. ☛ TODO 준비해야 할것들 <code>[0/6]</code></a></li>
+<li><a href="#org34b4fd5">2. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></a>
 <ul>
-<li><a href="#orgd259d1f">MP와 MDP의 차이</a></li>
+<li><a href="#orgfa8d934">MP와 MDP의 차이</a></li>
 </ul>
 </li>
-<li><a href="#org0ebe977">3. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-12-01 Wed&gt; </span></span> - chapter2</a>
+<li><a href="#orgf0380bf">3. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-12-01 Wed&gt; </span></span> - chapter2</a>
 <ul>
-<li><a href="#org12f25fb">강화학습 기초1: MDP와 벨만 방정식</a>
+<li><a href="#org708d9ad">강화학습 기초1: MDP와 벨만 방정식</a>
 <ul>
-<li><a href="#org02b80a8">MDP</a></li>
-<li><a href="#org75a2bcc">상태(S)</a></li>
-<li><a href="#org10264b1">행동(A)</a></li>
-<li><a href="#orgbe2b78f">보상함수(r)</a></li>
-<li><a href="#org3b2521a">할인율(discount factor) - \(\gamma\)</a></li>
+<li><a href="#org284e903">MDP</a></li>
+<li><a href="#org88476b9">상태(S)</a></li>
+<li><a href="#org7ea864c">행동(A)</a></li>
+<li><a href="#org9748d3a">보상함수(r)</a></li>
+<li><a href="#org12b5865">상태변환확률</a></li>
+<li><a href="#orge8c644b">할인율(discount factor) - \(\gamma\)</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org4f5c85d">4. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-12-02 Thu&gt; </span></span> -continued to chapter2</a>
+<li><a href="#orgf6ee31d">4. <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-12-02 Thu&gt; </span></span> -continued to chapter2</a>
 <ul>
 <li>
 <ul>
-<li><a href="#org97822b3">정책</a></li>
+<li><a href="#org270bdd4">정책</a></li>
+<li><a href="#org692ffc0">가치 함수</a></li>
 </ul>
 </li>
 </ul>
@@ -77,8 +79,8 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-org5f752fd" class="outline-2">
-<h2 id="org5f752fd"><span class="section-number-2">1</span> ☛ TODO 준비해야 할것들 <code>[0/6]</code></h2>
+<div id="outline-container-org8e3184a" class="outline-2">
+<h2 id="org8e3184a"><span class="section-number-2">1</span> ☛ TODO 준비해야 할것들 <code>[0/6]</code></h2>
 <div class="outline-text-2" id="text-1">
 <ul class="org-ul">
 <li class="trans"><code>[-]</code> 논문 읽기 <code>[0/4]</code>
@@ -102,8 +104,8 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd4efd5a" class="outline-2">
-<h2 id="orgd4efd5a"><span class="section-number-2">2</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></h2>
+<div id="outline-container-org34b4fd5" class="outline-2">
+<h2 id="org34b4fd5"><span class="section-number-2">2</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-11-30 Tue&gt;</span></span></h2>
 <div class="outline-text-2" id="text-2">
 <div class="important">
 <p>
@@ -113,9 +115,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgd259d1f" class="outline-3">
-<h3 id="orgd259d1f">MP와 MDP의 차이</h3>
-<div class="outline-text-3" id="text-orgd259d1f">
+<div id="outline-container-orgfa8d934" class="outline-3">
+<h3 id="orgfa8d934">MP와 MDP의 차이</h3>
+<div class="outline-text-3" id="text-orgfa8d934">
 <div class="note">
 <p>
 일상 생활에서 MP와 MDP 적용여부를 알 수 있을까?
@@ -124,7 +126,7 @@
 </div>
 
 
-<div id="org79c6c54" class="figure">
+<div id="orgbeebb02" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/flipcoin1.png" alt="flipcoin1.png" />
 </p>
 </div>
@@ -133,7 +135,7 @@
 </ul>
 
 
-<div id="org0b05ac4" class="figure">
+<div id="org1da6881" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/flipcoin2.png" alt="flipcoin2.png" />
 </p>
 </div>
@@ -145,7 +147,7 @@
 </ul>
 
 
-<div id="org5e0beb2" class="figure">
+<div id="orgbb0fb0e" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/ship1.png" alt="ship1.png" />
 </p>
 </div>
@@ -154,7 +156,7 @@
 </ul>
 
 
-<div id="orgb3da4a9" class="figure">
+<div id="org6e7ce92" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/ship2.png" alt="ship2.png" />
 </p>
 </div>
@@ -165,22 +167,22 @@
 </div>
 </div>
 
-<div id="outline-container-org0ebe977" class="outline-2">
-<h2 id="org0ebe977"><span class="section-number-2">3</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-12-01 Wed&gt; </span></span> - chapter2</h2>
+<div id="outline-container-orgf0380bf" class="outline-2">
+<h2 id="orgf0380bf"><span class="section-number-2">3</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-12-01 Wed&gt; </span></span> - chapter2</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org12f25fb" class="outline-3">
-<h3 id="org12f25fb">강화학습 기초1: MDP와 벨만 방정식</h3>
-<div class="outline-text-3" id="text-org12f25fb">
+<div id="outline-container-org708d9ad" class="outline-3">
+<h3 id="org708d9ad">강화학습 기초1: MDP와 벨만 방정식</h3>
+<div class="outline-text-3" id="text-org708d9ad">
 <ul class="org-ul">
 <li>강화학습: 결국엔 어떤 방정식을 풀어내는 방법; 그 방정식은 벨만 방정식</li>
 <li>순차적 행동 결정 문제(MDP) in grid world.</li>
 <li>MDP를 통해 정의된문제: agent가 학습하기 위해서 가치함수 개념도입. (가치함수 &asymp; 벨만방정식)</li>
 </ul>
 </div>
-<div id="outline-container-org02b80a8" class="outline-4">
-<h4 id="org02b80a8">MDP</h4>
-<div class="outline-text-4" id="text-org02b80a8">
+<div id="outline-container-org284e903" class="outline-4">
+<h4 id="org284e903">MDP</h4>
+<div class="outline-text-4" id="text-org284e903">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -211,9 +213,9 @@
 </ul>
 </div>
 </div>
-<div id="outline-container-org75a2bcc" class="outline-4">
-<h4 id="org75a2bcc">상태(S)</h4>
-<div class="outline-text-4" id="text-org75a2bcc">
+<div id="outline-container-org88476b9" class="outline-4">
+<h4 id="org88476b9">상태(S)</h4>
+<div class="outline-text-4" id="text-org88476b9">
 <ul class="org-ul">
 <li>S: agent가 관찰가능한 상태의 집합; "자신의 상황에 대한 관찰",  ex) 로봇의 경우 센서값</li>
 <li>"내가 정의하는 상태가 에이전트가 학습하기에 충분한 정보를 주는 것인가?"라는 질문을 해야 한다.</li>
@@ -225,7 +227,7 @@ S example in Grid World! <br />
 \end{equation}</li>
 </ul>
 
-<div id="orgc841c07" class="figure">
+<div id="org815c8b6" class="figure">
 <p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/gridworld.jpg" alt="gridworld.jpg" width="400px" height="300px" />
 </p>
 </div>
@@ -237,15 +239,16 @@ S example in Grid World! <br />
 
 <div class="note">
 <p>
+ 상태라는 단어보단, 상황이란 단어가 더 와닿는다. 하지만, 대부분 상태로 쓰기 때문에 난 상황과 상태를 섞어서 쓸것이다..
 상태는 사용자가 정의한다. 이말은 사용자에게 선택권한이 있다고 돌려 말할 수도 있을것같다. 예를 들면,  축구선수란 agent를 만든다고 하자. 나는 상태를 만들어야 한다.  상태가 될 수 있는것은 여러가지가 있을 수 있다. 운동장을 쪼개서 grid형태로 해서 location(위치)를 나타내는것을 상태로 할수 있고,.공의 위치도 상태가 될수 있다.  동료 선수들의 위치도 상태가 될 수 있다. 심지어  잔디밭의 상태, 온도, 습도, 여러개가 있을 수 있다. 그런데, 나는 선택해야 한다. 가장 중요하다고 생각하는 것들을 가지고&#x2026;그리고 S라는 유한 집합을 만들어야 한다.
 </p>
 
 </div>
 </div>
 </div>
-<div id="outline-container-org10264b1" class="outline-4">
-<h4 id="org10264b1">행동(A)</h4>
-<div class="outline-text-4" id="text-org10264b1">
+<div id="outline-container-org7ea864c" class="outline-4">
+<h4 id="org7ea864c">행동(A)</h4>
+<div class="outline-text-4" id="text-org7ea864c">
 <ul class="org-ul">
 <li>agent가 상태 \(\mathcal{S}_{t}\) 에서 할 수 있는 가능한 행동의 집합을 \(\mathcal{A}\) 라고 한다.</li>
 <li><b>보통 agent가 할수 있는 행동은 모든 상태에서 같다</b></li>
@@ -263,14 +266,21 @@ Random Variable은 보통 함수로 설명한다. mapping되는 값이 R(실수)
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbe2b78f" class="outline-4">
-<h4 id="orgbe2b78f">보상함수(r)</h4>
-<div class="outline-text-4" id="text-orgbe2b78f">
+<div id="outline-container-org9748d3a" class="outline-4">
+<h4 id="org9748d3a">보상함수(r)</h4>
+<div class="outline-text-4" id="text-org9748d3a">
 <ul class="org-ul">
 <li>agent가 학습을 할수 있는 유일한 정보. 환경이 agent에게 주는 정보.</li>
 <li>t단계에서 action을 취하면 t+1에서 보상을 받는다는 것이 수식에 나와있음을 참조하자.</li>
 <li>수식: \(\mathcal{r} (s , a) = \mathbb{E} [ \mathcal{R}_{t+1} | \mathcal{S}_{t} = s, \mathcal{A}_{t} = a ]\)</li>
-<li>보상에서 기댓값을 쓰는 이유? 보상을 agent에게 주는 것은 환경이고, 환경에 따라서 같은 상태에서 같은 행동을 취하더라도 다른 보상을 줄수도 있습니다. 따라서 이 모든것을 고려해서 보상함수를 기댓값으로 표현합니다.</li>
+<li>보상에서 기댓값을 쓰는 이유? 보상을 agent에게 주는 것은 환경이고, 환경에 따라서 같은 상태에서 같은 행동을 취하더라도 다른 보상을 줄수도 있다. 따라서 이 모든것을 고려해서 보상함수를 기댓값으로 표현한다.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org12b5865" class="outline-4">
+<h4 id="org12b5865">상태변환확률</h4>
+<div class="outline-text-4" id="text-org12b5865">
+<ul class="org-ul">
 <li>어떤 상태에서 어떤 action이 주어질때, 다음 상태로 가는 것을 확률로 표현할 수 있다.</li>
 <li>\(\mathcal{P}_{ss'}^{a} = \mathcal{P} [ \mathcal{S}_{t+1} = s' | \mathcal{S}_{t} = s' , \mathcal{A}_{t} = a ]\)</li>
 <li>위의상태변환확률은 환경의 model이라고 부른다. 환경의 일부다.</li>
@@ -284,9 +294,9 @@ Random Variable은 보통 함수로 설명한다. mapping되는 값이 R(실수)
 </div>
 </div>
 </div>
-<div id="outline-container-org3b2521a" class="outline-4">
-<h4 id="org3b2521a">할인율(discount factor) - \(\gamma\)</h4>
-<div class="outline-text-4" id="text-org3b2521a">
+<div id="outline-container-orge8c644b" class="outline-4">
+<h4 id="orge8c644b">할인율(discount factor) - \(\gamma\)</h4>
+<div class="outline-text-4" id="text-orge8c644b">
 <ul class="org-ul">
 <li>보상이 현 시점에서 주어지지 않고, 먼 미래에 주어진다면, 그 가치는 동등할까?</li>
 <li>복권 당첨시, 당장 1억의 보상을 받는 것과 10년 뒤 1억을 받는 것의 가치는 동등한가?</li>
@@ -307,13 +317,13 @@ Random Variable은 보통 함수로 설명한다. mapping되는 값이 R(실수)
 </div>
 </div>
 </div>
-<div id="outline-container-org4f5c85d" class="outline-2">
-<h2 id="org4f5c85d"><span class="section-number-2">4</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-12-02 Thu&gt; </span></span> -continued to chapter2</h2>
+<div id="outline-container-orgf6ee31d" class="outline-2">
+<h2 id="orgf6ee31d"><span class="section-number-2">4</span> <span class="timestamp-wrapper"><span class="timestamp">&lt;2021-12-02 Thu&gt; </span></span> -continued to chapter2</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-org97822b3" class="outline-4">
-<h4 id="org97822b3">정책</h4>
-<div class="outline-text-4" id="text-org97822b3">
+<div id="outline-container-org270bdd4" class="outline-4">
+<h4 id="org270bdd4">정책</h4>
+<div class="outline-text-4" id="text-org270bdd4">
 <ul class="org-ul">
 <li>모든 상태에서 agent가 해야할 행동</li>
 <li>각 상태에서 단하나의 행동을 나타낼 수도 있고, 확률적으로 나타낼 수도 있다.</li>
@@ -322,8 +332,8 @@ Random Variable은 보통 함수로 설명한다. mapping되는 값이 R(실수)
 <li>수식: \(\pi (a | s) = \mathcal{P} [ \mathcal{A}_{t} = a | \mathcal{S}_{t} = s ]\)</li>
 </ul>
 
-<div id="org8dd0b56" class="figure">
-<p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/policy.png" alt="policy.png" />
+<div id="org0b74e0c" class="figure">
+<p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/policy.png" alt="policy.png" width="800px" height="500px" />
 </p>
 <p><span class="figure-number">Figure 6: </span>policy in grid world</p>
 </div>
@@ -338,11 +348,33 @@ Random Variable은 보통 함수로 설명한다. mapping되는 값이 R(실수)
 <li>여기까지가 MDP를 정의한 것이다.</li>
 </ul>
 
-<div id="org681ec2f" class="figure">
-<p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/reinforce.png" alt="reinforce.png" width="400px" height="300px" />
+<div id="org2f4c4f0" class="figure">
+<p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/reinforce.png" alt="reinforce.png" />
+</p>
+</div>
+<ul class="org-ul">
+<li>agent의 행동은, 앞으로 받을 보상을 기반으로 결정한다. (앞으로 받을 보상을 가치함수라고 부른다.)</li>
+<li>행동을 하면, 환경은 agent에게 실제 보상과 다음상태를 알려준다.</li>
+<li>실제 보상을 통해서, 앞으로 받을 보상이 잘못된것을 알게 된다.</li>
+<li>이것을 통해서, 가치함수와 정책을 바꿔나가는 학습을 하게 된다.</li>
+<li>어느정도의 학습을 통해, 가장 많은 보상을 받는 정책을 학습할 수 있다.</li>
+</ul>
+<div class="note">
+<p>
+[지금까지 정리] 위의 그림 2.9는 매우 유명한 그림이다. 그런데 나는 이 그림보다 아래 Peter Norvig책의 그림이 더 와닿는다. 우리가 만들고자 하는건 agent의 뇌를 만드는 것이다. 그리고 그 뇌는 벨만 방정식으로 되어 있다. 벨만 방정식을 만들기 위해서 우리는 그림과 같은 구조를 정의해야 한다. Enviroment는 agent가 매순간 마주하는(인지하는) 상황(State)을 제공한다. 어떤 상황이 어떻게 agent에게 주어질지는 알수가 없다. 물론 enviroment는 모델이라고 부르는 확률분포함수가 있어서, 랜덤하게 확률에 따라서 State를 agent에게 준다. State와 State Transition Matrix는 environment를 정의하는 것이다. 또한 agent에는 Action이 있다. 여기까지는 그림과 일치하고 자연스러운 묘사이기 때문에 문제가 없다. 그런데 위 그림에는 reward가 있는데, 아래 그림은 reward가 없다. reward는 학습을 위해서 만들어낸 요소다. reward가 없다고 가정하자. 어떤 상황에 직면했을때, agent는 어떤 action을 취할수 있지만, 그것이 맞는건지,아닌건지 좋은건지, 나쁜건지 판단할 수 없다. 어떤 목적을 위해서 agent를 학습시키는 데 있어서 reward가 필요한것이다. 예를들어서, 개훈련을 보자. 개한테 손이라고 말하면 발을 드는 action을 취하게 하고싶다. 개는 여러 action을 취할 수 있다. 그중 발을 들어올리는 action을 취할 때 reward을 주는 식으로 학습을 시키는 것이다. 이것이 reward다. 그러면 할인율?은 어떻게 볼 것인가? 이부분은 아직 이해를 못했다.
+</p>
+
+</div>
+
+<div id="orgb1176f7" class="figure">
+<p><img src="https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/agent1.png" alt="agent1.png" />
 </p>
 </div>
 </div>
+</div>
+
+<div id="outline-container-org692ffc0" class="outline-4">
+<h4 id="org692ffc0">가치 함수</h4>
 </div>
 </div>
 </div>
