@@ -16,13 +16,13 @@
     - [-] [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/Faderated_Learning.pdf][Faderated Learning:]]
     - [-] [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/CST2021_Artificial_Intelligence_for_Wireless_Caching_Schemes_Performance_and_Challenges.pdf][CST2021_Artificial_Intelligence_for_Wireless_Caching_Schemes_Performance_and_Challenges]]
     - [-] [[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/documents/fedmes_speeding_up_federated.pdf][FedMes_Speeding_Up_Federated_Learning_with_Multiple_Edge_Servers]]
-  - [-] [[file:Faderated_Learning/Fl][to study Arduino or raspberry pi for faderated learning.]]
-  - [-] to study python, js or c# for platform of Reinforcement Learning.
-  - [-] tensorflow2, keras, pandas for deep learning.
+- [-] [[file:Faderated_Learning/Fl.org][to study Arduino or raspberry pi for faderated learning.]]
+- [-] [[file:Deep_Learning/Deep_Learning.org][to study python, js or c# for platform of Reinforcement Learning.]]
+- [-] [[file:Deep_Learning/Deep_Learning.org][tensorflow2, keras, pandas for deep learning.]]
   - [-] [[file:Network/network.org][network (무선캐싱,콘텐츠전송, 네트워크 자원 최적화, 에지 컴퓨팅,에지 네트워크 및 분산 시스템)]]
   - [-] [[file:Multi_Bandits/mbandits.org][multi bandits code implementations.]]
 
-  - [[file:Papers/papers.org][papers link]]
+  - [[file:Papers/papers.org][papers summary link]]
 * <2021-11-30 Tue>
  #+begin_important
 간단히 git을 만들고, web page를 만들었다.
@@ -112,4 +112,4 @@ https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img
 #+begin_note
 의문점이, 현시점에서 받게 될 보상이 미래에 동일하게 주어진다는 가정에서 할인율을 설명하는게 맞는지 모르겠다.복권처럼... 왜냐면, 수식을 보면, 미래에 받는 보상은 현재의 보상과 같을 수가 없기 때문이다. 보상자체가 환경에서 random하게 주어질 뿐이다. 즉 미래에 받을 보상도 랜덤할 뿐이다. 보상을 동일하다고 비유한것은 이해가 안간다. 
 #+end_note
-* <2021-12-02 Thu> -continued to chanpter2
+* <2021-12-02 Thu> -continued to chapter2
