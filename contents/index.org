@@ -109,3 +109,6 @@ https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img
 - 할인율의 정의: $\gamma \in [0,1]$
 - 미래 보상의 현재 가치는 다음과 같이 표현한다. $\gamma^{k-1} \mathcal{R}_{t+k}$
 
+#+begin_note
+의문점이, 현시점에서 받게 될 보상이 미래에 동일하게 주어진다는 가정에서 할인율을 설명하는게 맞는지 모르겠다.복권처럼... 왜냐면, 수식을 보면, 미래에 받는 보상은 현재의 보상과 같을 수가 없기 때문이다. 보상자체가 환경에서 random하게 주어질 뿐이다. 즉 미래에 받을 보상도 랜덤할 뿐이다. 보상을 동일하다고 비유한것은 이해가 안간다. 
+#+end_note
