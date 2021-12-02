@@ -115,3 +115,22 @@ https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img
 그러면, 보상이란건, t+1에 올수도 t+2에 올수도, t+3에도 올 수 있는 개념인거 같다. 미래에 받는 것만 확실한듯 하다.
 #+end_note
 * <2021-12-02 Thu> -continued to chapter2
+*** 정책
+- 모든 상태에서 agent가 해야할 행동
+- 각 상태에서 단하나의 행동을 나타낼 수도 있고, 확률적으로 나타낼 수도 있다.
+- 강화학습을 통해 학습 해야 하는 것은 최적 정책.
+- 최적 정책: 각 상태에서 단 하나의 행동만을 선택.
+- 수식: $\pi (a | s) = \mathcal{P} [ \mathcal{A}_{t} = a | \mathcal{S}_{t} = s ]$
+#+CAPTION: policy in grid world
+#+NAME: 
+[[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/policy.png]]
+
+#+begin_note
+모든 상태에서 agent가 해야할 행동을 정한게 policy라고 한다.  grid world그림이 policy를 직관적으로 잘 표현한것 같아 이해가 쉽다. 수식만 봤을 땐, 어떤 상태가 주어진다면 그때 취할 수 있는 action을 확률로 나타낸것이라고 이해했는데...왠지 전체적인 그림이 안 떠올랐다 . 앞으로 정책을 생각할 때, 모든 상태를 나열하고, 각 상태별 action을 표시할 필요가 있다고 느꼈다.
+#+end_note
+- 여기까지가 MDP를 정의한 것이다.
+#+CAPTION: 
+#+NAME: 
+#+attr_html: :width 400px :height 300px
+#+attr_latex: :width 100px
+[[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/reinforce.png]]
