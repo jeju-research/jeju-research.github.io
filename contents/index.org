@@ -146,7 +146,7 @@ https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img
 #+end_note
 #+CAPTION: 
 #+NAME: 
-[[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/agent1.png]]
+[[https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/reinforce2.png]]
 
 *** 가치 함수
 
