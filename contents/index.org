@@ -51,8 +51,18 @@ https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img
 
 #+NAME: 
 https://raw.githubusercontent.com/jeju-research/jeju-research.github.io/main/img/ship2.png
--  Motor가 있기 때문에,MDP를 적용할 수 있다.
+- Motor가 있기 때문에,MDP를 적용할 수 있다.
 
+
+
+** MDP와 RL(Reinforcement Learning)
+ #+begin_important
+ MDP와 RL은 다른 것이라고 한다. 아직까지는 잘 모르겠다. 구글링을 하면 MDP는 Enviornment에 대한 수학적 모델링을 말하고,  RL은 agent가 최적의 정책과 가치함수를 찾는(학습하는) 거라고 하는데, 그러면 MDP의 정의 와 비슷하지 않나? 라는 생각이 든다. 
+ #+end_important
+** RL과 supervised Learning 차이
+ #+begin_important
+나는 먼 미래의 보상이라는게 와닿지가 않았다. 그래서 가치함수도 찾아보고, reward도 찾다가 알게 되었다. reward를 이해하는건 어렵지 않다. 예를 들어, 개를 훈련시킬때, 먹이나 간식을 가지고 훈련을 시키는데, 이럴때 사용되는 간식이 reward라고 보면된다. 개가 어떤 목적을 수행할 수 있도록 주인이 reward로 반복 훈련을 시킨다. 예를 들면, 개한테 "거실에 불꺼" 라고 하면, 개가 거실에 가서 스위치를 끈다. 이때마다 간식을 주는 훈련을 여러번 하면 개는 reward없이도 불을 끈다. 훈련을 통해 학습한것이다.  그러면 이것은 supervised learning이다. 그런데 개가 방안에서 여러 행동을 하다가 우연히 거실로 가서 스위치를 껐는데, 간식이 생긴다는 것을 알게 되었다면, 개는 방안에서 거실로 이동하고, 거실의 스위치를 끄면 간식이 나온다는 것을 알게 된다. 개가 방에 있다가 거실로 이동한다고 보상이 생기지 않는다. 거실로 이동후 스위치를 꺼야 보상이 생긴다. 이것은 먼미래의 보상이다. 이게 제대로된 해석인지 교수님한테 물어봐야 겠다.
+ #+end_important
 * <2021-12-01 Wed> - chapter2
 ** 강화학습 기초1: MDP와 벨만 방정식
 - 강화학습: 결국엔 어떤 방정식을 풀어내는 방법; 그 방정식은 벨만 방정식
